@@ -1,0 +1,36 @@
+
+###REQUESTS FROM CLIENT APP
+
+
+###GET req
+get http://localhost:3000/users
+
+###get a user by id
+get http://localhost:3000/users/1
+
+###POST req
+post http://localhost:3000/user
+Content-Type: application/json
+
+{
+    "id":3,
+    "name":"vikas",
+    "age":30
+}
+
+
+
+###PUT req
+put http://localhost:3000/user
+Content-Type: application/json
+
+{
+    "id":1,
+    "name":"kiran kumar",
+    "age":24
+}
+
+
+
+###DELETE req
+delete http://localhost:3000/users/1
