@@ -13,9 +13,9 @@ post http://localhost:3000/user-api/user
 Content-Type: application/json
 
 {
-    "id":3,
-    "name":"vikas",
-    "age":30
+    "id":2,
+    "name":"bhyanu",
+    "age":35
 }
 
 
@@ -26,14 +26,14 @@ Content-Type: application/json
 
 {
     "id":1,
-    "name":"kiran kumar",
-    "age":24
+    "name":"vikas kumar",
+    "age":35
 }
 
 
 
 ###DELETE req
-delete http://localhost:3000/user-api/users/1
+delete http://localhost:3000/user-api/users/20
 
 
 
